@@ -23,13 +23,17 @@
     <button id="colorButton">Change Color</button>
 
     <script>
-        document.getElementById("colorButton").addEventListener("click", function() {
-            changeBackgroundColor();
-        });
-
+        const button = document.getElementById("colorButton");
+	if (button) {
+		button.addEventListener("click", function(){
+            		changeBackgroundColor();
+        	});
+	} else {
+		console.error("Button not found!");
+	}
         function changeBackgroundColor() {
             // Generate a random color
-            var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+            const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
             // Change the background color of the body
             document.body.style.backgroundColor = randomColor;
         }
