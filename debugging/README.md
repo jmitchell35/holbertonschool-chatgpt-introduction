@@ -19,8 +19,9 @@ Remember to test, verify, and critically evaluate the information provided by Ch
 
 ### Tasks
 #### 0. Debugging - Python Factorial
-mandatory
-Objective: Use ChatGPT to identify and correct errors in code samples.
+
+mandatory Objective: Use ChatGPT to identify and correct errors in code samples.
+
 File: factorial.py
 
 ```bash
@@ -38,7 +39,9 @@ print(f)
 ```
 
 #### 1. Debugging - Python Arguments
+
 Objective: Use ChatGPT to identify and correct errors in code samples.
+
 File: print_arguments.py
 
 ```bash
@@ -50,7 +53,9 @@ for i in range(len(sys.argv)):
 ```
 
 #### 2. Debugging - HTML / Javascript
+
 Objective: Use ChatGPT to identify and correct errors in code samples.
+
 File: change_background.html
 
 ```html
@@ -97,6 +102,11 @@ File: change_background.html
 ```
 
 #### 3. Debugging - Python Mines
+
+Objective: Use ChatGPT to identify and correct errors in code samples.
+
+Game Overview: Minesweeper is a puzzle game where the player must clear a field of hidden “mines” without detonating any of them, using clues about the number of neighboring mines in each field.
+
 File: mines.py
 
 ```bash
@@ -172,7 +182,10 @@ if __name__ == "__main__":
 ```
 
 #### 4. Documentation - Python Factorial
-factorial_recursive.py
+
+Objective: Use ChatGPT to document the code
+
+File: factorial_recursive.py
 
 ```bash
 #!/usr/bin/python3
@@ -189,6 +202,9 @@ print(f)
 ```
 
 #### 5. Error Handling - Python Checkbook
+
+Objective: Use ChatGPT to document the code
+
 File: checkbook.py
 
 ```python
@@ -234,6 +250,11 @@ if __name__ == "__main__":
 ```
 
 #### 6. Debugging - Tic Tac Toe Python
+
+Objective: Use ChatGPT to identify and correct errors in code samples. (There may be several errors on the code)
+
+Game Overview: Players alternate placing “X” or “O” on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
+
 File: tic.py
 
 ```bash
