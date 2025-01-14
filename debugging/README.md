@@ -41,16 +41,19 @@ print(f)
 Objective: Use ChatGPT to identify and correct errors in code samples.
 File: print_arguments.py
 
+```bash
 #!/usr/bin/python3
 import sys
 
 for i in range(len(sys.argv)):
     print(sys.argv[i])
+```
 
 #### 2. Debugging - HTML / Javascript
 Objective: Use ChatGPT to identify and correct errors in code samples.
 File: change_background.html
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,10 +94,12 @@ File: change_background.html
 
 </body>
 </html>
+```
 
 #### 3. Debugging - Python Mines
 File: mines.py
 
+```bash
 #!/usr/bin/python3
 import random
 import os
@@ -164,10 +169,12 @@ class Minesweeper:
 if __name__ == "__main__":
     game = Minesweeper()
     game.play()
+```
 
 #### 4. Documentation - Python Factorial
 factorial_recursive.py
 
+```bash
 #!/usr/bin/python3
 import sys
 
@@ -179,10 +186,12 @@ def factorial(n):
 
 f = factorial(int(sys.argv[1]))
 print(f)
+```
 
 #### 5. Error Handling - Python Checkbook
 File: checkbook.py
 
+```python
 class Checkbook:
     def __init__(self):
         self.balance = 0.0
@@ -222,10 +231,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 
 #### 6. Debugging - Tic Tac Toe Python
 File: tic.py
 
+```bash
 #!/usr/bin/python3
 def print_board(board):
     for row in board:
@@ -269,3 +280,4 @@ def tic_tac_toe():
     print("Player " + player + " wins!")
 
 tic_tac_toe()
+```
