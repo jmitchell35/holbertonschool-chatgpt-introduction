@@ -23,6 +23,7 @@ mandatory
 Objective: Use ChatGPT to identify and correct errors in code samples.
 File: factorial.py
 
+```bash
 #!/usr/bin/python3
 import sys
 
@@ -34,6 +35,7 @@ def factorial(n):
 
 f = factorial(int(sys.argv[1]))
 print(f)
+```
 
 #### 1. Debugging - Python Arguments
 Objective: Use ChatGPT to identify and correct errors in code samples.
